@@ -24,3 +24,7 @@ def index(request):
             messages.success(request, f"Dear {first_name}, your Form submitted successfully")
 
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
